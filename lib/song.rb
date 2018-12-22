@@ -10,7 +10,6 @@ class Song
     @genre = genre
     @@count += 1
   end 
-binding.pry
 
 
 end
