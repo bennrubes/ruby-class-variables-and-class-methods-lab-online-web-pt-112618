@@ -5,6 +5,6 @@ class Song
 
 
 
-Song.new(name, artist, genre)
+lucifer = Song.new(name, artist, genre)
 
 end
