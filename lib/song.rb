@@ -32,6 +32,8 @@ class Song
     @@genres.each do |genre|
       if genre_hash.include?(genre)
         genre_hash[genre] += 1
+      else
+        genre_hash[genre] = 1
   end
 
 end
